@@ -1,9 +1,6 @@
 package com.wlt.mall.serivce;
 
 
-import com.wlt.mall.dao.OrderLogDAO;
-import com.wlt.mall.pojo.OrderLogExample;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
 

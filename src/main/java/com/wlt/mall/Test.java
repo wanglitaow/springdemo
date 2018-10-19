@@ -2,9 +2,6 @@ package com.wlt.mall;
 
 
 import com.wlt.mall.dto.StundentDto;
-import com.wlt.mall.serivce.OrderLogService;
-import com.wlt.mall.serivce.OrderService;
-import org.springframework.beans.factory.annotation.Autowired;
 
 public class Test {
 
@@ -31,9 +28,7 @@ public class Test {
 
         try {
 
-            OrderLogService orderService = new OrderLogService();
-
-            System.out.println(orderService.getCnt());;
+            System.out.println(1);
 
         }catch (Exception e){
             e.printStackTrace();

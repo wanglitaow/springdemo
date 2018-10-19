@@ -1,7 +1,6 @@
 package com.wlt.mall.controller;
 
 import com.wlt.mall.dao.RedisDao;
-import com.wlt.mall.serivce.OrderLogService;
 import com.wlt.mall.serivce.OrderService;
 import com.wlt.mall.config.WltConfig;
 //import main.java.springboot.dao.RedisDao;
@@ -28,8 +27,7 @@ public class HelloContrller {
 
 
 
-    @Autowired
-    private OrderLogService orderLogService;
+
 //    @Autowired
 //    RedisTemplate redisTemplate;
 
@@ -68,9 +66,7 @@ public class HelloContrller {
 
         UserDTO x = (UserDTO)redisDao.getFromValue("ssss");
 
-
-        System.out.println(orderLogService.getCnt());
-	    return "success"+orderLogService.getCnt();
+	    return "success";
     }
 
 
