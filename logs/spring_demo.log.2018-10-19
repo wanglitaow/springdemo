@@ -12802,3 +12802,83 @@ org.apache.ibatis.binding.BindingException: Invalid bound statement (not found):
 2018-10-19 17:59:13.665 [http-nio-8085-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
 2018-10-19 17:59:13.665 [http-nio-8085-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
 2018-10-19 17:59:13.689 [http-nio-8085-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+2018-10-19 18:09:48.363 [main] INFO  com.wlt.mall.Application - Starting Application on louis.local with PID 34418 (/Users/louis/javacode/springdemo/target/classes started by louis in /Users/louis/javacode/springdemo)
+2018-10-19 18:09:48.366 [main] INFO  com.wlt.mall.Application - No active profile set, falling back to default profiles: default
+2018-10-19 18:09:48.677 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2018-10-19 18:09:48.900 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@769f71a9: startup date [Fri Oct 19 18:09:48 CST 2018]; root of context hierarchy
+2018-10-19 18:09:50.206 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-10-19 18:09:51.875 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8085 (http)
+2018-10-19 18:09:51.887 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2018-10-19 18:09:51.888 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-10-19 18:09:51.972 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-10-19 18:09:51.972 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3072 ms
+2018-10-19 18:09:52.095 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2018-10-19 18:09:52.101 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-10-19 18:09:52.102 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-10-19 18:09:52.102 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-10-19 18:09:52.102 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-10-19 18:09:53.327 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@769f71a9: startup date [Fri Oct 19 18:09:48 CST 2018]; root of context hierarchy
+2018-10-19 18:09:53.788 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello/getjson],methods=[GET],produces=[application/json;chartset=UTF-8]}" onto private com.wlt.mall.domain.User com.wlt.mall.controller.HelloContrller.getUserJson(java.lang.String)
+2018-10-19 18:09:53.791 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello/getxml],produces=[application/xml;chartset=UTF-8]}" onto private com.wlt.mall.domain.User com.wlt.mall.controller.HelloContrller.getUserXML(java.lang.String)
+2018-10-19 18:09:53.791 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello/redis]}" onto private java.lang.String com.wlt.mall.controller.HelloContrller.RedisTest(java.lang.String)
+2018-10-19 18:09:53.792 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello/{name}]}" onto private java.lang.String com.wlt.mall.controller.HelloContrller.sayHello(java.lang.String)
+2018-10-19 18:09:53.793 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto private java.lang.String com.wlt.mall.controller.IndexController.sayHello()
+2018-10-19 18:09:53.795 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/order/list]}" onto private com.wlt.mall.common.BaseResponse com.wlt.mall.controller.OrderLogController.List()
+2018-10-19 18:09:53.796 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/order/info],methods=[GET]}" onto private com.wlt.mall.common.BaseResponse com.wlt.mall.controller.OrderLogController.Info(java.lang.Integer)
+2018-10-19 18:09:53.796 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/order/del],methods=[POST]}" onto private com.wlt.mall.common.BaseResponse com.wlt.mall.controller.OrderLogController.del(java.lang.Integer)
+2018-10-19 18:09:53.798 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/order/update],methods=[POST]}" onto private com.wlt.mall.common.BaseResponse com.wlt.mall.controller.OrderLogController.Update(java.lang.Integer)
+2018-10-19 18:09:53.798 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/order/qs/info],methods=[GET]}" onto private com.wlt.mall.common.BaseResponse com.wlt.mall.controller.OrderLogController.QsInfo(java.lang.Integer)
+2018-10-19 18:09:53.800 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/getUser/{name}]}" onto protected com.wlt.mall.domain.User com.wlt.mall.controller.UserController.getUser(java.lang.String)
+2018-10-19 18:09:53.801 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/getUserByName/{name}]}" onto protected java.lang.String com.wlt.mall.controller.UserController.getUserByName(java.lang.String,org.springframework.ui.Model)
+2018-10-19 18:09:53.806 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-10-19 18:09:53.807 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-19 18:09:53.881 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-19 18:09:53.881 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-19 18:09:53.934 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-19 18:09:54.642 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-10-19 18:09:54.660 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2018-10-19 18:09:54.672 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2018-10-19 18:09:54.701 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-10-19 18:09:54.739 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8085 (http)
+2018-10-19 18:09:54.746 [main] INFO  com.wlt.mall.Application - Started Application in 6.901 seconds (JVM running for 8.383)
+2018-10-19 18:10:03.466 [Thread-20] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@769f71a9: startup date [Fri Oct 19 18:09:48 CST 2018]; root of context hierarchy
+2018-10-19 18:10:03.468 [Thread-20] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-10-19 18:10:06.157 [main] INFO  com.wlt.mall.Application - Starting Application on louis.local with PID 34437 (/Users/louis/javacode/springdemo/target/classes started by louis in /Users/louis/javacode/springdemo)
+2018-10-19 18:10:06.159 [main] INFO  com.wlt.mall.Application - No active profile set, falling back to default profiles: default
+2018-10-19 18:10:06.418 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2018-10-19 18:10:06.488 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@769f71a9: startup date [Fri Oct 19 18:10:06 CST 2018]; root of context hierarchy
+2018-10-19 18:10:07.128 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-10-19 18:10:07.918 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8085 (http)
+2018-10-19 18:10:07.924 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2018-10-19 18:10:07.925 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-10-19 18:10:07.979 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-10-19 18:10:07.979 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1491 ms
+2018-10-19 18:10:08.086 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2018-10-19 18:10:08.089 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-10-19 18:10:08.089 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-10-19 18:10:08.089 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-10-19 18:10:08.089 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-10-19 18:10:08.906 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@769f71a9: startup date [Fri Oct 19 18:10:06 CST 2018]; root of context hierarchy
+2018-10-19 18:10:08.948 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello/{name}]}" onto private java.lang.String com.wlt.mall.controller.HelloContrller.sayHello(java.lang.String)
+2018-10-19 18:10:08.949 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello/getjson],methods=[GET],produces=[application/json;chartset=UTF-8]}" onto private com.wlt.mall.domain.User com.wlt.mall.controller.HelloContrller.getUserJson(java.lang.String)
+2018-10-19 18:10:08.950 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello/getxml],produces=[application/xml;chartset=UTF-8]}" onto private com.wlt.mall.domain.User com.wlt.mall.controller.HelloContrller.getUserXML(java.lang.String)
+2018-10-19 18:10:08.950 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello/redis]}" onto private java.lang.String com.wlt.mall.controller.HelloContrller.RedisTest(java.lang.String)
+2018-10-19 18:10:08.950 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto private java.lang.String com.wlt.mall.controller.IndexController.sayHello()
+2018-10-19 18:10:08.952 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/order/list]}" onto private com.wlt.mall.common.BaseResponse com.wlt.mall.controller.OrderLogController.List()
+2018-10-19 18:10:08.952 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/order/del],methods=[POST]}" onto private com.wlt.mall.common.BaseResponse com.wlt.mall.controller.OrderLogController.del(java.lang.Integer)
+2018-10-19 18:10:08.952 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/order/info],methods=[GET]}" onto private com.wlt.mall.common.BaseResponse com.wlt.mall.controller.OrderLogController.Info(java.lang.Integer)
+2018-10-19 18:10:08.953 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/order/update],methods=[POST]}" onto private com.wlt.mall.common.BaseResponse com.wlt.mall.controller.OrderLogController.Update(java.lang.Integer)
+2018-10-19 18:10:08.953 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/order/qs/info],methods=[GET]}" onto private com.wlt.mall.common.BaseResponse com.wlt.mall.controller.OrderLogController.QsInfo(java.lang.Integer)
+2018-10-19 18:10:08.954 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/getUser/{name}]}" onto protected com.wlt.mall.domain.User com.wlt.mall.controller.UserController.getUser(java.lang.String)
+2018-10-19 18:10:08.954 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/getUserByName/{name}]}" onto protected java.lang.String com.wlt.mall.controller.UserController.getUserByName(java.lang.String,org.springframework.ui.Model)
+2018-10-19 18:10:08.955 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-10-19 18:10:08.956 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-19 18:10:08.990 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-19 18:10:08.990 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-19 18:10:09.027 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-19 18:10:09.565 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-10-19 18:10:09.579 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2018-10-19 18:10:09.587 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2018-10-19 18:10:09.612 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-10-19 18:10:09.624 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8085 (http)
+2018-10-19 18:10:09.628 [main] INFO  com.wlt.mall.Application - Started Application in 3.762 seconds (JVM running for 5.339)
