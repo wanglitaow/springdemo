@@ -51,6 +51,14 @@ public class BookController {
         Integer res= bookService.del(id);
         return new BaseResponse<>(res);
     }
+    @RequestMapping(value = "/send" ,method = RequestMethod.GET)
+    private BaseResponse pushQueus(@RequestParam(value = "id") Integer id) {
+
+
+
+
+        return new BaseResponse<>(1);
+    }
 
 
 

@@ -14,6 +14,8 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 @SpringBootApplication
 //@EnableAspectJAutoProxy
+@ComponentScan(value = {"com.wlt.mall"})
+
 public class Application {
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);

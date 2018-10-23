@@ -2,45 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdedb466-053e-4ffc-9c6a-44380d47b59f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlt/mall/serivce/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlt/mall/vo/BookVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_4_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_http_client_1_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_1_7_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_1_7_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_1_5_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_stream_rabbit_unknown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_4_3_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlt/mall/Queue/direct/DirectReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlt/mall/Queue/direct/helloReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlt/mall/Queue/fanout/FanoutReceiver1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlt/mall/Queue/fanout/FanoutReceiver2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlt/mall/Queue/topic/TopicReceiver1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlt/mall/Queue/topic/TopicReceiver2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlt/mall/Queue/topic/TopicReceiver3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlt/mall/config/RabbitDirectConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlt/mall/config/RabbitFanoutConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlt/mall/config/RabbitTopicConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wlt/mall/controller/QueueController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringBootDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootDemo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/spring_demo.log.2018-10-19" beforeDir="false" afterPath="$PROJECT_DIR$/logs/spring_demo.log.2018-10-19" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlt/mall/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wlt/mall/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlt/mall/controller/HelloContrller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wlt/mall/controller/HelloContrller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlt/mall/controller/OrderLogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wlt/mall/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlt/mall/dao/OrderLogDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlt/mall/dao/QuestionDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlt/mall/pojo/OrderLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlt/mall/pojo/OrderLogExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlt/mall/pojo/Question.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlt/mall/pojo/QuestionExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlt/mall/serivce/OrderLogService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlt/mall/serivce/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wlt/mall/serivce/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlt/mall/vo/OrderLogVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wlt/mall/vo/OrderLogVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/OrderLogDAO.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wlt/mall/Test$FanxingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wlt/mall/Test$FanxingService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wlt/mall/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wlt/mall/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wlt/mall/controller/HelloContrller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wlt/mall/controller/HelloContrller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wlt/mall/controller/OrderLogController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wlt/mall/dao/OrderLogDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wlt/mall/pojo/OrderLog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wlt/mall/pojo/OrderLogExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wlt/mall/pojo/OrderLogExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wlt/mall/pojo/OrderLogExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wlt/mall/pojo/OrderLogExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wlt/mall/serivce/OrderLogService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wlt/mall/serivce/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wlt/mall/serivce/OrderService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wlt/mall/vo/OrderLogVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wlt/mall/vo/OrderLogVo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/OrderLogDAO.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/AnnotationTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/ChildAnnotationTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/MathTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/MyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/OrderServiceTestTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/test/MathTestTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/test/OrderServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mall-trade.log.2018-10-16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/spring_demo.log.2018-10-16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/spring_demo.log.2018-10-17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/spring_demo.log.2018-10-18" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/spring_demo.log.2018-10-19" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlt/mall/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wlt/mall/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlt/mall/JsonTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlt/mall/Nobug.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlt/mall/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlt/mall/TestTool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wlt/mall/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wlt/mall/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wlt/mall/JsonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wlt/mall/Nobug.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wlt/mall/Test$FanxingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wlt/mall/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wlt/mall/TestTool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wlt/mall/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wlt/mall/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wlt/mall/controller/BookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,77 +61,75 @@
     <session id="1498449912">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="22" />
-          <entry key="xml" value="3" />
+          <entry key="2018-10-16" value="2" />
+          <entry key="2018-10-22" value="1" />
+          <entry key="2018-10-23" value="1" />
+          <entry key="class" value="2" />
+          <entry key="html" value="1" />
+          <entry key="java" value="70" />
+          <entry key="properties" value="2" />
+          <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="22" />
-          <entry key="XML" value="3" />
+          <entry key="CLASS" value="2" />
+          <entry key="HTML" value="1" />
+          <entry key="JAVA" value="70" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Properties" value="2" />
+          <entry key="XML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="123" />
+          <entry key="java" value="373" />
+          <entry key="properties" value="17" />
+          <entry key="xml" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="123" />
+          <entry key="JAVA" value="373" />
+          <entry key="Properties" value="17" />
+          <entry key="XML" value="28" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/controller/IndexController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/Queue/topic/TopicReceiver2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="180">
+              <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/controller/BookController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="33" column="71" selection-start-line="33" selection-start-column="71" selection-end-line="33" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/vo/BookVo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/pojo/Book.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/Queue/direct/DirectReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+              <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/serivce/BookService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/controller/QueueController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="228">
+              <caret line="55" column="38" lean-forward="true" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,60 +138,64 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/serivce/HelloWord.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/Queue/fanout/FanoutReceiver1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state>
+              <caret column="8" selection-start-column="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/Test.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/Queue/fanout/FanoutReceiver2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state>
+              <caret column="8" selection-start-column="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/vo/OrderLogVo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-              <folding>
-                <element signature="e#329#330#0" expanded="true" />
-                <element signature="e#354#355#0" expanded="true" />
-                <element signature="e#391#392#0" expanded="true" />
-                <element signature="e#419#420#0" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
-                <element signature="e#475#476#0" expanded="true" />
-                <element signature="e#513#514#0" expanded="true" />
-                <element signature="e#543#544#0" expanded="true" />
-                <element signature="e#577#578#0" expanded="true" />
-                <element signature="e#607#608#0" expanded="true" />
-                <element signature="e#653#654#0" expanded="true" />
-                <element signature="e#691#692#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="270">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/serivce/OrderService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/Queue/topic/TopicReceiver1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state>
+              <caret column="8" selection-start-column="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/controller/HelloContrller.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/controller/BookController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
+            <state relative-caret-position="300">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/Queue/topic/TopicReceiver3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/Queue/direct/helloReceiver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="8" selection-start-column="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -199,6 +209,12 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>rabbitTemplate</find>
+      <find>rabbit</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -207,11 +223,27 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/wlt/mall/vo/OrderLogVo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wlt/mall/controller/OrderLogController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wlt/mall/controller/BookController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wlt/mall/controller/HelloContrller.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wlt/mall/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wlt/mall/vo/BookVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wlt/mall/controller/BookController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wlt/mall/serivce/BookService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wlt/mall/config/RabbitMQConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wlt/mall/config/RabbitConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wlt/mall/serivce/RabbitMqService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wlt/mall/config/RabbitDirectConfig.java" />
+        <option value="$PROJECT_DIR$/src/test/RabbitDirectTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wlt/mall/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wlt/mall/Queue/direct/DirectReceiver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wlt/mall/Queue/direct/helloReceiver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wlt/mall/Queue/fanout/FanoutReceiver1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wlt/mall/Queue/fanout/FanoutReceiver2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wlt/mall/Queue/topic/TopicReceiver1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wlt/mall/Queue/topic/TopicReceiver2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wlt/mall/Queue/topic/TopicReceiver3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wlt/mall/controller/QueueController.java" />
       </list>
     </option>
   </component>
@@ -221,17 +253,18 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1612" />
-    <option name="y" value="-42" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="1606" />
+    <option name="y" value="-140" />
     <option name="width" value="1920" />
-    <option name="height" value="917" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <autoscrollToSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -275,7 +308,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mall" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="Queue" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -284,7 +317,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mall" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="Queue" type="462c0819:PsiDirectoryNode" />
+              <item name="direct" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -293,7 +327,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mall" type="462c0819:PsiDirectoryNode" />
-              <item name="serivce" type="462c0819:PsiDirectoryNode" />
+              <item name="Queue" type="462c0819:PsiDirectoryNode" />
+              <item name="fanout" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -302,12 +337,12 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mall" type="462c0819:PsiDirectoryNode" />
-              <item name="vo" type="462c0819:PsiDirectoryNode" />
+              <item name="Queue" type="462c0819:PsiDirectoryNode" />
+              <item name="topic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
-        <option name="show-excluded-files" value="false" />
       </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
@@ -322,7 +357,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539948226662" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540292061202" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -333,6 +368,11 @@
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.wlt.mall.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/wlt/mall/Queue" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/wlt/mall/config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -412,49 +452,58 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539943758135</updated>
-      <workItem from="1539943760282" duration="2199000" />
+      <workItem from="1539943760282" duration="11400000" />
+      <workItem from="1540288788347" duration="1781000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2199000" />
+    <option name="totallyTimeSpent" value="13181000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="-157" width="1920" height="1057" extended-state="6" />
-    <editor active="true" />
+    <frame x="1606" y="-140" width="1920" height="1057" extended-state="1" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18690096" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17465389" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" weight="0.2911917" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" visible="true" weight="0.3284974" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32953367" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4072539" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34300518" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32953367" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32953367" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.36787564" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.21450777" />
+      <window_info active="true" anchor="bottom" id="Java Enterprise" order="11" visible="true" weight="0.32953367" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,121 +513,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/wlt/mall/mapper/QuestionDAO.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/wlt/mall/mapper/BookDAO.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/controller/OrderLogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="28" column="57" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/dao/OrderLogDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/pojo/OrderLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/pojo/OrderLogExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/serivce/OrderLogService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/serivce/OrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/vo/OrderLogVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding>
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#543#544#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#691#692#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/pojo/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/pojo/Question.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/vo/BookVo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -586,10 +520,178 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/dao/QuestionDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/serivce/HelloWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/wlt/mall/mapper/QuestionDAO.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/spring_demo.log.2018-10-16" />
+    <entry file="file://$PROJECT_DIR$/logs/mall-trade.log.2018-10-16" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/serivce/BookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.0.0/amqp-client-5.0.0.jar!/com/rabbitmq/client/ConnectionFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="530" column="22" selection-start-line="530" selection-start-column="22" selection-end-line="530" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.0.0/amqp-client-5.0.0-sources.jar!/com/rabbitmq/client/ConnectionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="1011" column="22" selection-start-line="1011" selection-start-column="22" selection-end-line="1011" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/config/RabbitMQConfig.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.3.RELEASE/spring-boot-autoconfigure-1.5.3.RELEASE.jar!/org/springframework/boot/autoconfigure/amqp/RabbitAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="69" column="30" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.3.RELEASE/spring-boot-autoconfigure-1.5.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/amqp/RabbitAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="168" column="30" selection-start-line="168" selection-start-column="30" selection-end-line="168" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/beans.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/serivce/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/spring_demo.log.2018-10-23">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/spring_demo.log.2018-10-22" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/serivce/RedisCacheServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/serivce/RabbitMqService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/serivce/RedisCacheAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/config/RabbitConfig.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/config/WltConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/config/CacheConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1137">
+          <folding>
+            <element signature="e#0#4527#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/common/BaseResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/JsonTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/Nobug.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/TestTool.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/TestAnnotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="59" column="39" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/config/RabbitFanoutConfig.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/config/RabbitTopicConfig.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/config/RabbitDirectConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/RabbitTopicTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/RabbitFanoutTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/RabbitDirectTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/controller/HelloContrller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="498">
+          <caret line="47" column="65" lean-forward="true" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -600,31 +702,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/dao/QuestionDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/controller/BookController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="33" column="71" selection-start-line="33" selection-start-column="71" selection-end-line="33" selection-end-column="71" />
+        <state relative-caret-position="300">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/serivce/HelloWord.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="270">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/serivce/BookService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/Queue/direct/DirectReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="105">
+          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/Queue/direct/helloReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/Queue/fanout/FanoutReceiver1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/Queue/fanout/FanoutReceiver2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/Queue/topic/TopicReceiver1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/Queue/topic/TopicReceiver2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/Queue/topic/TopicReceiver3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wlt/mall/controller/QueueController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="55" column="38" lean-forward="true" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
