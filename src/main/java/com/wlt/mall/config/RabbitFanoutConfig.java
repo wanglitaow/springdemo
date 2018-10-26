@@ -1,9 +1,8 @@
-package main.java.com.wlt.mall.config;
+package com.wlt.mall.config;
 
-import org.springframework.amqp.core.Binding;
-import org.springframework.amqp.core.BindingBuilder;
-import org.springframework.amqp.core.FanoutExchange;
 import org.springframework.amqp.core.Queue;
+
+import org.springframework.amqp.core.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -18,17 +17,20 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class RabbitFanoutConfig {
 
-    final static String PENGLEI = "fanout.penglei.net";
+    // 消息队列名称 学生消息队列
+    final static String STD = "fanout1";
 
-    final static String SOUYUNKU = "fanout.souyunku.com";
+    // 教师消息队列
+    final static String TEA = "fanout2";
+
     @Bean
-    public Queue queuePenglei() {
-        return new Queue(RabbitFanoutConfig.PENGLEI);
+    public Queue genQueSt() {
+        return new Queue("fanout1");
     }
 
     @Bean
-    public Queue queueSouyunku() {
-        return new Queue(RabbitFanoutConfig.SOUYUNKU);
+    public Queue genQueTea() {
+        return new Queue("fanout2");
     }
 
     /**
@@ -39,14 +41,16 @@ public class RabbitFanoutConfig {
         return new FanoutExchange("fanoutExchange");
     }
 
-    @Bean
-    Binding bindingExchangeQueuePenglei(Queue queuePenglei, FanoutExchange fanoutExchange) {
-        return BindingBuilder.bind(queuePenglei).to(fanoutExchange);
+
+
+    Binding bindingExchangeQueueSt(Queue queueSt, FanoutExchange fanoutExchange) {
+        return BindingBuilder.bind(queueSt).to(fanoutExchange);
     }
 
-    @Bean
-    Binding bindingExchangeQueueSouyunku(Queue queueSouyunku, FanoutExchange fanoutExchange) {
-        return BindingBuilder.bind(queueSouyunku).to(fanoutExchange);
+    // 交换机绑定消息队列
+
+    Binding bindingExchangeQueueTea(Queue queueTea, FanoutExchange fanoutExchange) {
+        return BindingBuilder.bind(queueTea).to(fanoutExchange);
     }
 
 }

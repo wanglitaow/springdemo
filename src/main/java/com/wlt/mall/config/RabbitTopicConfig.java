@@ -1,4 +1,4 @@
-package main.java.com.wlt.mall.config;
+package com.wlt.mall.config;
 
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;

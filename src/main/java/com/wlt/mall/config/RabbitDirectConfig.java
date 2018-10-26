@@ -1,4 +1,4 @@
-package main.java.com.wlt.mall.config;
+package com.wlt.mall.config;
 
 
 import org.springframework.amqp.core.Binding;
@@ -19,9 +19,10 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class RabbitDirectConfig {
 
+    // 队列的名字为hello
     @Bean
     public Queue helloQueue() {
-        return new Queue("hello");
+        return new Queue("hello1");
     }
 
     @Bean

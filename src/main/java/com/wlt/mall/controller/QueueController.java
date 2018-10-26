@@ -18,13 +18,14 @@ public class QueueController {
     @RequestMapping(value = "/direct" ,method = RequestMethod.GET)
     String  direct(){
 
-        String context = "此消息在，默认的交换机模式队列下，有 helloReceiver 可以收到";
+        String context = "此消息在，默认的交换机模式队列下，有 helloReceiver 可以收到1";
 
         String routeKey = "hello";
 
         context = "routeKey:" + routeKey + ",context:" + context;
 
-        System.out.println("sendHelloTest : " + context);
+//        System.out.println("sendHelloTest1777 : " + context);
+        // AMQP消息中所携带的Routing-Key 为hello
         rabbitTemplate.convertAndSend(routeKey, context);
         return context;
 
@@ -41,7 +42,7 @@ public class QueueController {
 
         context = "routeKey:" + routeKey + ",context:" + context;
 
-        System.out.println("sendHelloTest : " + context);
+        System.out.println("sendHell2oTes456 : " + context);
 
         this.rabbitTemplate.convertAndSend(routeKey, context);
         return context;
@@ -59,7 +60,7 @@ public class QueueController {
 
         String exchange = "fanoutExchange";
 
-        System.out.println("sendPengleiTest : " + context);
+//        System.out.println("sendPengleiTest : " + context);
 
         context = "context:" + exchange + ",routeKey:" + routeKey + ",context:" + context;
 
@@ -76,11 +77,11 @@ public class QueueController {
 
         String routeKey = "topic.souyunku.com";
 
-        String exchange = "fanoutExchange";
+        String exchange = "fanoutExchange122";
 
         context = "context:" + exchange + ",routeKey:" + routeKey + ",context:" + context;
 
-        System.out.println("sendSouyunkuTest : " + context);
+//        System.out.println("sendSouyunkuTest : " + context);
 
         this.rabbitTemplate.convertAndSend(exchange, routeKey, context);
         return context;
